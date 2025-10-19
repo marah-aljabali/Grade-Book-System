@@ -5,8 +5,9 @@
 <h4>"GradeBook-projectFX" file: Contains the implementation using JavaFX, with a graphical user interface (GUI).</h4>
 
 <h4>Features</h4>
-<li>The user can enter the course number and the instructor's name.</li>
-<ul>The instructor can:
+The user can enter the course number and the instructor's name.
+The instructor can:
+<ul>
     <li>Add student names and their grades.</li>
     <li>Delete students from the course.</li>
     <li>Calculate and display each student's GPA and corresponding GPA code.</li>
