@@ -1,23 +1,30 @@
-<h2>This repository contains a Grade Book System project developed in Java.</h2>
+# Grade Book System  
 
-<h4>"GradeBook-project" file: Includes the core program code written in standard Java, you can run the program on termenal</h4>
+This repository contains a **Grade Book Management System** developed in **Java**.  
+The project was implemented in two versions:  
+1. **Console-based version** (standard Java) — runs directly through the terminal.  
+2. **JavaFX version** — provides a graphical user interface (GUI) for easier interaction.  
 
-<h4>"GradeBook-projectFX" file: Contains the implementation using JavaFX, with a graphical user interface (GUI).</h4>
+---
 
-<h4>Features</h4>
-The user can enter the course number and the instructor's name.
-The instructor can:
-<ul>
-    <li>Add student names and their grades.</li>
-    <li>Delete students from the course.</li>
-    <li>Calculate and display each student's GPA and corresponding GPA code.</li>
-  </li>
-</ul>
+## 🎯 Overview  
+The system allows instructors to manage and analyze student grades efficiently.  
+It supports basic operations such as adding, deleting, viewing, and calculating grades and GPA for each student.  
 
+---
 
+## ⚙️ Features  
+- Add new course records including **course name, course number, and instructor name**.  
+- Register students and add grades for each course.  
+- Display all students with their grades and corresponding GPA.  
+- Calculate and show each student’s average grade.  
+- Delete or update student records easily.  
+- View results and data directly via the terminal or GUI.  
 
+---
 
+## 🧩 Structure  
+- `GradeBook-project` → Console version (Java terminal-based).  
+- `GradeBook-ProjectFX` → GUI version using JavaFX.  
 
-
-
-
+Each version contains its own `Main` class to start the application.  
